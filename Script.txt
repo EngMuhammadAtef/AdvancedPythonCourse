@@ -64,10 +64,10 @@ print(Dict.keys())
 print(Dict.values())
 print(Dict.pop(3))
 print(Dict)
-ÇßÊÑ list ÈÓ ÇÍäÇ ÈäÓÊÎÏã Çá
+We Use Lists More..
 .............
 For loop in Data Types
-¿ loop for ÇÒÇí ÊáÝ Úáí ÇáÚäÇÕÑ ÈÇá
+How to visit elements in Data Types?
 __1__
 names = ["Muhammad", "Ali", "Sayed"]
 for idx in range(len(names)):
@@ -94,23 +94,18 @@ for name, salary in employees.items():
 print(name, salary)
 .............
 Take lists from users
-áæ ßÇäÊ äÕæÕ ÈäßÊÈ list ØíÈ ÇÒÇí äÇÎÏ ãä ÇáãÓÊÎÏã
+How to take lists from users ?
+if it is list of string..
 lstrings = list(input()) X
 lstrings = list(input().split())
-áæ ßÇäÊ ÇÑÞÇã ÈäßÊÈ
+if it is list of number..
 nums = list(map(int, input().split()))
-Functional programming
-ÇÔåÑ ? ÝÇäßÔäÒ Ýíå
+Functional Programming( FP)
+Functions of FP..
 map() - filter() - reduce()
-ÝÇáãÇÈ æÇÍÏå ãäåã
-list ÈÊÇÎÏ ãäß ÇÓã ÝÇäßÔä æÇá
-list æÈÊäÝÐ ÇáÝÇäßÔä Ïí Úáí ßá ÚäÕÑ Ý Çá
-ãËÇá ÚáÔÇä äÝåã
 print(["11","22","33"])
 print(map(int, ["11","22","33"]))
 print(list(map(int, ["11","22","33"])))
-æãä åäÇ äÑÌÚ áãËÇáäÇ ÇÇáæá ÇÒÇí ÊÇÎÏ áíÓÊ ãä ÇÇáÑÞÇã ãä ÇáãÓÊÎÏã æÊÊØÈÚ ÇÇáÑÞÇã ãÊÑÊÈÉ
-
 nums = list(map(int, input().split()))
 print(sorted(nums))
 .............
@@ -124,7 +119,7 @@ print(N)
 Or
 N = x if x > y else y
 print(N)
-æããßä äßÊÈå ßãÇä Ý ÓØÑ ßæÏ æÇÍÏ
+We can write this in one line code..
 N = x if x > y else y; print(N)
 __2__
 print("Great x" if x > y else "Great y")
@@ -179,10 +174,10 @@ __2__
 def sumNnum(*lst):
 return sum(lst)
 print(sumNnum(5,4,1,10))
-lambda ØÑíÞÉ ÊÇäíå ÈÇÓÊÎÏÇã Çá
+lambda in other way
 sumNnum = lambda *lst: sum(lst)
 print(sumNnum(5,4,1,10))
-kwargs **æÝíå ÍÇÌå ßãÇä ÇÓãåÇ ßæÇÑÌÓ ÈÓ ãÔ ÍÊÍÊÇÌåÇ Ý ÇáæÞÊ ÇáÍÇáí ÊÞÏÑ ÊÓÑÔ ÚäåÇ áÅáØÇáÚ
+kwargs ** Search About it
 .............
 Import modules
 import math
